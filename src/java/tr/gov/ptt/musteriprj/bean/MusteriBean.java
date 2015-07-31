@@ -25,7 +25,7 @@ public class MusteriBean {
         return musteriListesi;
     }
     @PostConstruct
-    public void init()
+    public void veriTabanındanGetir()
     {
         try {
             musteriListesi= MusteriDAO.musteriListesiGetir();

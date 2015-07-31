@@ -17,15 +17,15 @@
                              emptyMessage="Gösterilecek Müşteri Yok">
                     <f:facet name="header"> Müşteri Listesi</f:facet>
                     <p:column headerText="No" sortBy="#{must.no}" filterBy="#{must.no}" filterMatchMode="contains">
-                     <h:outputText value="#{must.no}" />
+                        <p:outputLabel value="#{must.no}" />
                  </p:column>
  
-                    <p:column headerText="Ad" sortBy="#{must.ad}" filterBy="#{must.ad}" filterMatchMode="contains">
-                   <h:outputText value="#{must.ad}" />
+                 <p:column headerText="Ad" sortBy="#{must.ad}" filterBy="#{must.ad}" filterMatchMode="contains">
+                    <p:outputLabel value="#{must.ad}" />
                  </p:column>
  
-                    <p:column headerText="Soyad" sortBy="#{must.soyad}" filterBy="#{must.soyad}" filterMatchMode="contains">
-                    <h:outputText value="#{must.soyad}" />
+                  <p:column headerText="Soyad" sortBy="#{must.soyad}" filterBy="#{must.soyad}" filterMatchMode="contains">
+                    <p:outputLabel value="#{must.soyad}" />
                  </p:column>
                  <f:facet name="footer" > Toplam  #{fn:length(musteriBean.musteriListesi)} Müşteri</f:facet>  
                 </p:dataTable>
