@@ -12,7 +12,9 @@ public class GirisDAOTest {
     
     public static void testGiriseYetkilimi()
     {
-        try {
+     try 
+       {
+            
             Giris giris = new Giris();
             giris.setKullanici("esra");
             giris.setSifre("1234");
