@@ -17,7 +17,7 @@ public class VTBaglanti {
     
     public static void BaglantiKapat(Connection conn) throws SQLException
     {
-        System.out.println("Veri Tabanı Bağlantısı Kapatılıyor");
+        //System.out.println("Veri Tabanı Bağlantısı Kapatılıyor");
        conn.close();
     }
 
